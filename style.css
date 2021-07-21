@@ -93,6 +93,7 @@ button{
 /* Mid Section */
 .mid-section .mid{
     display: flex;
+    background-color: hsl(233, 100%, 54%);
     flex-direction: column;
     text-align: center;
     padding: 0 14px 190px;
