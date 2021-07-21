@@ -98,7 +98,6 @@ button{
     padding: 0 14px 190px;
 }
 .mid-section .mid .mid-top h2{
-    /* max-width: 239px; */
     margin: 0 56px 30px 56px;
 }
 .mid-section .mid .mid-left{
@@ -139,7 +138,7 @@ button{
 .workflow-section h2{
     padding:0 50px 25px;
 }
-.workflow-section p{
+.workflow-section p:not(:last-child){
     padding:0 24px 90px ;
 }
 .workflow-section .flow{
@@ -157,10 +156,10 @@ button{
 .brand-section{
     display: flex;
     flex-direction: column;
-    padding-bottom: 170px ;
+    padding-bottom: 120px ;
     text-align: center;
 }
-.brand-section .brands .img-brand{
+.brand-section .brands .img-brand:not(:last-child){
     padding-bottom: 70px;
 }
 /* End Brand Section */
@@ -200,12 +199,11 @@ button{
     width: 50px;
     height: 50px;
 } 
-.footer-section .footer p{
+/* .footer-section .footer p{
     padding-bottom: 30px;
     color: var(--Dark-Grayish-Blue);
     font-weight:400;
-
-}
+} */
 .footer-section .footer .foo-5{
     padding-bottom: 10px;
 }
